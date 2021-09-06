@@ -18,7 +18,7 @@ export const getDefaultDocumentNode = (props) => {
    * https://www.sanity.io/docs/structure-builder-reference#getdefaultdocumentnode-97e44ce262c9
    */
   const { schemaType } = props;
-  if (schemaType == "post") {
+  if (schemaType == "article") {
     return S.document().views([
       S.view.form(),
       S.view
@@ -56,8 +56,8 @@ export default () =>
       S.listItem()
         .title("Blog posts")
         .icon(MdDescription)
-        .schemaType("post")
-        .child(S.documentTypeList("post").title("Blog posts")),
+        .schemaType("article"),
+        
       S.listItem()
         .title("Authors")
         .icon(MdPerson)
@@ -73,7 +73,7 @@ export default () =>
       // defined the structure above.
       ...S.documentTypeListItems().filter(
         (listItem) =>
-          !["category", "author", "post", "siteSettings"].includes(
+          !["category", "author", "article", "siteSettings"].includes(
             listItem.getId()
           )
       ),

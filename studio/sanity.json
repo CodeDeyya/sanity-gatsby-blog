@@ -5,7 +5,7 @@
     "dataset": "digitara"
   },
   "project": {
-    "name": "Blog with Gatsby"
+    "name": "Digitara Sanity.io"
   },
   "plugins": [
     "@sanity/base",

@@ -49,7 +49,7 @@ export default {
       options: {
         title: "Recent blog posts",
         order: "_createdAt desc",
-        types: ["post"],
+        types: ["article"],
       },
       layout: { width: "medium" },
     },
