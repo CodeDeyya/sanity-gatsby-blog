@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "Blog with Gatsby"
-  },
   "api": {
     "projectId": "a81tpesr",
-    "dataset": "production"
+    "dataset": "digitara"
+  },
+  "project": {
+    "name": "Blog with Gatsby"
   },
   "plugins": [
     "@sanity/base",
