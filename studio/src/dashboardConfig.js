@@ -19,10 +19,10 @@ export default {
                   apiId: "ec9169d1-85cc-45fd-bd5b-b4accd43e129",
                 },
                 {
-                  buildHookId: "6135e016fece25ed56f78636",
+                  buildHookId: "613900253b4ef20b152085a6",
                   title: "Blog Website",
-                  name: "sanity-gatsby-blog-web-8h915sgg",
-                  apiId: "47282128-f8a0-45dd-ac3a-b060ad2fa1cc",
+                  name: "digitara-gatsby-blog",
+                  apiId: "c3bbe971-7bcf-41e1-8f33-5d30a8b25e07",
                 },
               ],
             },
@@ -32,12 +32,12 @@ export default {
           {
             title: "GitHub repo",
             value:
-              "https://github.com/CodeDeyya/sanity-gatsby-blog",
+              "https://github.com/CodeDeyya/blog",
             category: "Code",
           },
           {
             title: "Frontend",
-            value: "https://sanity-gatsby-blog-web-8h915sgg.netlify.app",
+            value: "https://digitara-gatsby-blog.netlify.app",
             category: "apps",
           },
         ],
