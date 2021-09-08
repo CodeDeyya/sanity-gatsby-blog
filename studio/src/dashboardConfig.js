@@ -13,10 +13,10 @@ export default {
               sites: [
                 {
                   buildHookId:
-                    "6135e0165389a93203cb7f3e",
+                    "61390525ba287000b02c0c7a",
                   title: "Sanity Studio",
-                  name: "sanity-gatsby-blog-studio-8mkkgzhp",
-                  apiId: "ec9169d1-85cc-45fd-bd5b-b4accd43e129",
+                  name: "digitara-studio-blog",
+                  apiId: "5a037813-a200-4051-b954-96a2a8933bf3",
                 },
                 {
                   buildHookId: "613900253b4ef20b152085a6",
